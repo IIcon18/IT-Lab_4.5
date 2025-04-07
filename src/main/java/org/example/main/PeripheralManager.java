@@ -13,8 +13,8 @@ public class PeripheralManager {
     private final List<Peripheral> peripherals;
 
     @Autowired
-    public PeripheralManager(Keyboard keyboard, Headphones headphones, GraphicsTablet graphicsTablet) {
-        this.peripherals = List.of(keyboard, headphones, graphicsTablet);
+    public PeripheralManager(List<Peripheral> peripherals) {
+        this.peripherals = peripherals;
     }
 
     public void printModels() {
