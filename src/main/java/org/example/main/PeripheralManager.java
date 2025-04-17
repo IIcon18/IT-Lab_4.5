@@ -1,8 +1,6 @@
 package org.example.main;
 
-import org.example.peripherals.GraphicsTablet;
-import org.example.peripherals.Headphones;
-import org.example.peripherals.Keyboard;
+
 import org.example.peripherals.Peripheral;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -23,3 +21,4 @@ public class PeripheralManager {
         }
     }
 }
+
